@@ -16,9 +16,9 @@ ASCII or binary;
 * **POINT_DATA n**
   The number of data items n of each type must match the number of points in the dataset.
 
-  When describing the cells in terms of point indices, the points must be indexed starting at 0.
+When describing the cells in terms of point indices, the points must be indexed starting at 0.
 
-  All point data must use 3 coordinates. Even if your model has 2D geometry, each point must have (X,Y,Z) coordinates. Simply set Z = 0 if you want to work in 2D.
+All point data must use 3 coordinates. Even if your model has 2D geometry, each point must have (X,Y,Z) coordinates. Simply set Z = 0 if you want to work in 2D.
 
 
 ### 1. 安装
