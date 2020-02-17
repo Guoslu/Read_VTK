@@ -3,16 +3,16 @@
 ## VTK文件格式
 
 ASCII or binary;
-The VTK file format consists of five parts; the first three are mandatory, and the last two are optional.
+由五部分组成，前三部分必须，后两部分可选。
 
 * **vtk DataFile Version m.n**  
-  The header line. "m.n" is the version number.
+  第一行 "m.n" 是版本号.
 * a title
-  The title may be up to 256 characters, terminated by a new line.
+  标题最多256个字符，以换行结束.
 * **ASCII or BINARY**
   indicates the format used for subsequent data.
 * **DATASET type**
-  values for type are "STRUCTURED_POINTS" or "STRUCTURED_GRID" or "UNSTRUCTURED_GRID" or "POLYDATA" or "RECTILINEAR_GRID"; Depending on the type chosen, there will be further lines of keywords and values to define the data.
+  共5种类型，"STRUCTURED_POINTS"、"STRUCTURED_GRID"、"UNSTRUCTURED_GRID"、"POLYDATA"、"RECTILINEAR_GRID"; 
 * **POINT_DATA n**
   The number of data items n of each type must match the number of points in the dataset.
 
